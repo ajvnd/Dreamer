@@ -32,13 +32,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workers", "Workers", "{9A98
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Workers", "src\Workers\Dreamer.Workers\Dreamer.Workers.csproj", "{D8B82541-2744-44FB-B32B-699D65A1E37B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Tests.Behavioral", "tests\Dreamer.Tests.Behavioral\Dreamer.Tests.Behavioral.csproj", "{32D5BD42-62F4-4E84-8B7C-13D7E13E5F06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Test.Behavioral", "tests\Dreamer.Test.Behavioral\Dreamer.Test.Behavioral.csproj", "{32D5BD42-62F4-4E84-8B7C-13D7E13E5F06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Ui", "src\Presentation\Dreamer.Ui\Dreamer.Ui.csproj", "{92E60AC6-27C2-4741-BDAB-98DBBD0191A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Tests.Integration", "tests\Dreamer.Tests.Integration\Dreamer.Tests.Integration.csproj", "{718A238D-CE89-4425-9341-B914784CC22B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Test.Integration", "tests\Dreamer.Test.Integration\Dreamer.Test.Integration.csproj", "{718A238D-CE89-4425-9341-B914784CC22B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Tests.Unit", "tests\Dreamer.Tests.Unit\Dreamer.Tests.Unit.csproj", "{E12A2EB1-156B-4467-9AB2-2879F9C6985F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Test.Unit", "tests\Dreamer.Test.Unit\Dreamer.Test.Unit.csproj", "{E12A2EB1-156B-4467-9AB2-2879F9C6985F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Application.Command", "src\Application\Dreamer.Application.Command\Dreamer.Application.Command.csproj", "{A9B552BF-AE07-4DC6-9792-84F8AF3B9BB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{E12A2EB1-156B-4467-9AB2-2879F9C6985F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E12A2EB1-156B-4467-9AB2-2879F9C6985F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E12A2EB1-156B-4467-9AB2-2879F9C6985F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B552BF-AE07-4DC6-9792-84F8AF3B9BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B552BF-AE07-4DC6-9792-84F8AF3B9BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B552BF-AE07-4DC6-9792-84F8AF3B9BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B552BF-AE07-4DC6-9792-84F8AF3B9BB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2115BB69-88C6-4C26-B640-E48691835DD6} = {C57491E1-5373-4722-9ECB-F6EBFA33D1D5}
@@ -96,5 +102,6 @@ Global
 		{92E60AC6-27C2-4741-BDAB-98DBBD0191A9} = {0EAA9DD3-D275-4E70-96FD-B4B5AB5CC024}
 		{718A238D-CE89-4425-9341-B914784CC22B} = {C65341E6-A3A0-4B99-BE09-9B21EAF16328}
 		{E12A2EB1-156B-4467-9AB2-2879F9C6985F} = {C65341E6-A3A0-4B99-BE09-9B21EAF16328}
+		{A9B552BF-AE07-4DC6-9792-84F8AF3B9BB0} = {2115BB69-88C6-4C26-B640-E48691835DD6}
 	EndGlobalSection
 EndGlobal
