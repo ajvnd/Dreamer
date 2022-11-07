@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace Dreamer.Tests.Integration;
+namespace Dreamer.Test.Integration;
 
 public class UnitTest1
 {
