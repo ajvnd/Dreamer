@@ -1,1 +1,5 @@
-#Dreamer an clean architecture based.
+
+# Dreamer
+A entry point for clean architecture based on ASP.NET Core. 
+
+
