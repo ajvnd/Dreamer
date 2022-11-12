@@ -23,7 +23,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFiles", "{0B66612B-FD4E-4731-9EDC-3DE75111C476}"
 	ProjectSection(SolutionItems) = preProject
-		Dockerfile = Dockerfile
 		.gitignore = .gitignore
 		README.md = README.md
 	EndProjectSection
