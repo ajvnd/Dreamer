@@ -29,7 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Test.Behavioral", "tests\Dreamer.Test.Behavioral\Dreamer.Test.Behavioral.csproj", "{32D5BD42-62F4-4E84-8B7C-13D7E13E5F06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Presentation.Ui", "src\Presentation\Dreamer.Presentation.Ui\Dreamer.Presentation.Ui.csproj", "{92E60AC6-27C2-4741-BDAB-98DBBD0191A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Presentation.WebApp", "src\Presentation\Dreamer.Presentation.WebApp\Dreamer.Presentation.WebApp.csproj", "{92E60AC6-27C2-4741-BDAB-98DBBD0191A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Test.Integration", "tests\Dreamer.Test.Integration\Dreamer.Test.Integration.csproj", "{718A238D-CE89-4425-9341-B914784CC22B}"
 EndProject
