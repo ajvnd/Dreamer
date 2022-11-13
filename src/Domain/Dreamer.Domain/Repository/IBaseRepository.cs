@@ -7,6 +7,6 @@ public interface IBaseRepository<TEntity, in TKey> where TEntity : BaseEntity<TK
     Task<List<TEntity>> GetAllAsync();
     Task<TEntity> GetByIdAsync(TKey id);
     Task AddAsync(TEntity entity);
-    void Edit(TEntity entity);
-    void Delete(TEntity entity);
+    void Update(TEntity entity);
+    void Remove(TEntity entity);
 }
