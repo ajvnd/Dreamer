@@ -2,7 +2,7 @@ using Dreamer.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Dreamer.Persistence.EntityConfigurations;
+namespace Dreamer.Persistence.EntityConfiguration;
 
 public class SampleConfiguration : IEntityTypeConfiguration<Sample>
 {
