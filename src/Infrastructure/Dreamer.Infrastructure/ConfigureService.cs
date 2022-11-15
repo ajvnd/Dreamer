@@ -9,6 +9,8 @@ public static class ConfigureService
     {
         services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+        services.Scan(f => f.FromCallingAssembly().AddClasses().AsMatchingInterface());
+
         return services;
     }
 }
