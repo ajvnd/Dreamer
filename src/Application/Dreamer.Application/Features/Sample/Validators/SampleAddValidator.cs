@@ -1,4 +1,4 @@
-using Dreamer.Application.Commands.SampleCommands;
+using Dreamer.Application.Features.Sample.Commands;
 using FluentValidation;
 
 namespace Dreamer.Application.Validators.SampleValidators;
