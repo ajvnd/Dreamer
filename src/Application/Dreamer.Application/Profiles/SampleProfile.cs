@@ -1,5 +1,5 @@
 using AutoMapper;
-using Dreamer.Application.Models.SampleModel;
+using Dreamer.Application.Models.SampleModels;
 using Dreamer.Domain.Entity;
 
 namespace Dreamer.Application.Profiles;
