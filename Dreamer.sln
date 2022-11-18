@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Infrastructure.Pers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Presentation.WebApp", "src\Presentation\Dreamer.Presentation.WebApp\Dreamer.Presentation.WebApp.csproj", "{B5661EE3-9384-4EA5-B46D-BF1FA7769998}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.Presentation.Management.WebApp", "src\Presentation\Dreamer.Presentation.Management.WebApp\Dreamer.Presentation.Management.WebApp.csproj", "{2FAA9315-28D7-4036-A818-55CF5F01E116}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,10 @@ Global
 		{B5661EE3-9384-4EA5-B46D-BF1FA7769998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5661EE3-9384-4EA5-B46D-BF1FA7769998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5661EE3-9384-4EA5-B46D-BF1FA7769998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAA9315-28D7-4036-A818-55CF5F01E116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAA9315-28D7-4036-A818-55CF5F01E116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAA9315-28D7-4036-A818-55CF5F01E116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAA9315-28D7-4036-A818-55CF5F01E116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2115BB69-88C6-4C26-B640-E48691835DD6} = {C57491E1-5373-4722-9ECB-F6EBFA33D1D5}
@@ -94,5 +100,6 @@ Global
 		{663FAD67-87CD-4765-BB83-64FEF5B80CFB} = {7800661C-2F54-4ED3-A3CB-C4034EF65296}
 		{9A04F881-39B6-4B27-B85D-6AD5284C714E} = {7800661C-2F54-4ED3-A3CB-C4034EF65296}
 		{B5661EE3-9384-4EA5-B46D-BF1FA7769998} = {0EAA9DD3-D275-4E70-96FD-B4B5AB5CC024}
+		{2FAA9315-28D7-4036-A818-55CF5F01E116} = {0EAA9DD3-D275-4E70-96FD-B4B5AB5CC024}
 	EndGlobalSection
 EndGlobal
