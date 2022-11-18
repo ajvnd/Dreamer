@@ -1,6 +1,7 @@
-using Dreamer.Domain.Entity;
 
-namespace Dreamer.Domain.Repository;
+using Dreamer.Domain.Entities;
+
+namespace Dreamer.Domain.Repositories;
 
 public interface IBaseRepository<TEntity, in TKey> where TEntity : BaseEntity<TKey>
 {

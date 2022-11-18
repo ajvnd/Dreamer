@@ -1,4 +1,4 @@
-namespace Dreamer.Domain.Entity;
+namespace Dreamer.Domain.Entities;
 
 public abstract class BaseEntity<TKey>
 {

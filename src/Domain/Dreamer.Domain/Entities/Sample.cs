@@ -1,4 +1,5 @@
-namespace Dreamer.Domain.Entity;
+
+namespace Dreamer.Domain.Entities;
 
 public class Sample : BaseEntity<int>
 {

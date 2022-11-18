@@ -1,6 +1,6 @@
 using Dreamer.Infrastructure.Persistence.Context;
 
-namespace Dreamer.Infrastructure.Persistence.Seed;
+namespace Dreamer.Infrastructure.Persistence.Seeds;
 
 public static class DataSeed
 {

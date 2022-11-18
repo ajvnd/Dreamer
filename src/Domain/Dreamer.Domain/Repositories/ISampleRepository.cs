@@ -1,4 +1,5 @@
-using Dreamer.Domain.Entity;
+using Dreamer.Domain.Entities;
+using Dreamer.Domain.Repositories;
 
 namespace Dreamer.Domain.Repository;
 

@@ -1,4 +1,4 @@
-using Dreamer.Domain.Entity;
+using Dreamer.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Dreamer.Infrastructure.Persistence.Context;

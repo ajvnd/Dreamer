@@ -1,9 +1,9 @@
-using Dreamer.Domain.Entity;
-using Dreamer.Domain.Repository;
+using Dreamer.Domain.Entities;
+using Dreamer.Domain.Repositories;
 using Dreamer.Infrastructure.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace Dreamer.Infrastructure.Persistence.Repository;
+namespace Dreamer.Infrastructure.Persistence.Repositories;
 
 public abstract class BaseRepository<TEntity, TKey> : IBaseRepository<TEntity, TKey> where TEntity : BaseEntity<TKey>
 {
