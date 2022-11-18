@@ -5,24 +5,24 @@ namespace Dreamer.Test.Behavioral.Presentation.Api.SampleControllerTests;
 
 public class SampleControllerTest
 {
-    private void UserWantsToGetAnItem()
+    private void UserWantsToGetASample()
     {
     }
 
-    private void UserGetsAnItem()
+    private void UserGetsASample()
     {
     }
 
-    private void UserNowShouldHaveAnItem()
+    private void UserNowShouldHaveASample()
     {
     }
 
     [Fact]
     public void Get()
     {
-        this.Given(_ => UserWantsToGetAnItem())
-            .Given(_ => UserGetsAnItem())
-            .Given(_ => UserNowShouldHaveAnItem())
+        this.Given(_ => UserWantsToGetASample())
+            .Given(_ => UserGetsASample())
+            .Given(_ => UserNowShouldHaveASample())
             .BDDfy();
     }
 }
