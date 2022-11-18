@@ -3,16 +3,16 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:20163",
-      "sslPort": 44356
+      "applicationUrl": "http://localhost:55151",
+      "sslPort": 44379
     }
   },
   "profiles": {
-    "Dreamer.UserInterface": {
+    "Dreamer.Api": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7055;http://localhost:5247",
+      "applicationUrl": "https://localhost:7044;http://localhost:5184",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

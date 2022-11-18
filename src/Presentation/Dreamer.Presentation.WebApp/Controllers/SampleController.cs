@@ -2,10 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Dreamer.Presentation.WebApp.Controllers;
 
+[ApiController]
 public class SampleController : Controller
 {
-    public IActionResult Index()
+    public IActionResult Get()
     {
-        return View();
+        return Ok();
     }
 }
